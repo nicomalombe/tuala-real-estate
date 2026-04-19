@@ -81,8 +81,8 @@ function Contact() {
         <div className="contact-info">
           <h3>Our Office</h3>
           <p>📍 Nairobi, Kenya</p>
-          <p>📞 +254 700 000 000</p>
-          <p>📧 info@tualarealestate.com</p>
+          <p>📞 +254 794334958</p>
+          <p>📧 nicomalombe4@gmail.com</p>
         </div>
       </div>
     </div>
