@@ -40,8 +40,8 @@ function Footer() {
         <div className="footer-section">
           <h4>Contact</h4>
           <p>📍 Nairobi, Kenya</p>
-          <p>📞 +254 700 000 000</p>
-          <p>📧 info@tualarealestate.com</p>
+          <p>📞 +254 794334958</p>
+          <p>📧 nicomalombe4@gmail.com</p>
         </div>
 
       </div>

@@ -76,14 +76,6 @@ function Contact() {
 
           {status && <p className="status">{status}</p>}
         </form>
-
-        {/* ✅ CONTACT INFO NOW BELOW */}
-        <div className="contact-info">
-          <h3>Our Office</h3>
-          <p>📍 Nairobi, Kenya</p>
-          <p>📞 +254 794334958</p>
-          <p>📧 nicomalombe4@gmail.com</p>
-        </div>
       </div>
     </div>
   );

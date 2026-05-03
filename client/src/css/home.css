@@ -1,33 +1,107 @@
 .home {
+  font-family: Arial, sans-serif;
+}
+
+/* 🏠 HERO */
+.hero {
   height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("https://images.unsplash.com/photo-1560518883-ce09059eeffa") center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(10,31,68,0.7), rgba(10,31,68,0.7)),
-              url("https://images.unsplash.com/photo-1560518883-ce09059eeffa");
-  background-size: cover;
-  background-position: center;
   color: white;
-}
-
-.hero {
   text-align: center;
-  max-width: 600px;
 }
 
-.hero h1 {
-  font-size: 45px;
+.hero-content h1 {
+  font-size: 48px;
   margin-bottom: 15px;
 }
 
-.hero p {
+.hero-content p {
   font-size: 18px;
   margin-bottom: 20px;
 }
 
-.cta-btn {
+.hero-btn {
   padding: 12px 25px;
+  background: #00bcd4;
+  border: none;
+  color: white;
   font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: #0097a7;
+}
+
+/* 📊 STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+.stat h2 {
+  color: #0a1f44;
+  font-size: 30px;
+}
+
+.stat p {
+  color: #555;
+}
+
+/* ⭐ FEATURED */
+.featured {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.featured h2 {
+  margin-bottom: 30px;
+  color: #0a1f44;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.view-all {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0a1f44;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-all:hover {
+  background: #00bcd4;
+}
+
+/* 🚀 CTA */
+.cta {
+  background: #0a1f44;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 10px;
+}
+
+.cta-btn {
+  margin-top: 15px;
+  padding: 12px 25px;
   background: #00bcd4;
   border: none;
   color: white;
@@ -37,4 +111,16 @@
 
 .cta-btn:hover {
   background: #0097a7;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
